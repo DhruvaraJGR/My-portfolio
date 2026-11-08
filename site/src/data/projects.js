@@ -1,0 +1,72 @@
+export const projects = [
+  {
+    id: "cold-storage",
+    title: "Smart IoT-Based Cold Storage Monitoring System",
+    type: "Personal Project",
+    dates: "Jun–Aug 2025",
+    category: "IoT",
+    categoryLabel: "IoT · Full Stack",
+    summary:
+      "A hardware-meets-software monitoring system for live cold-storage conditions.",
+    details: [
+      "Arduino Uno and DS18B20 sensors monitor temperature and drive automated fan-speed control.",
+      "A NodeMCU ESP8266 streams live sensor data, device status and logs to a custom web dashboard.",
+      "Combines embedded C, hardware integration and web-based data visualization in one system.",
+    ],
+    stack: [
+      "Arduino Uno",
+      "DS18B20",
+      "NodeMCU ESP8266",
+      "Embedded C",
+      "Web dashboard",
+    ],
+    visual: "sensor",
+    liveUrl: "",
+    sourceUrl: "",
+  },
+  {
+    id: "live-news",
+    title: "Live News App",
+    type: "Android Project",
+    dates: "Sep–Dec 2024",
+    category: "Android",
+    categoryLabel: "Android",
+    summary:
+      "A real-time Android news reader with category filtering and a responsive reading experience.",
+    details: [
+      "Fetches current articles using the News API and supports category filtering.",
+      "Uses MVVM with Java, XML, Retrofit and RecyclerView for a maintainable application structure.",
+      "API calls were optimized to lower latency and create a smoother UI.",
+    ],
+    stack: ["Java", "XML", "Retrofit", "RecyclerView", "MVVM", "News API"],
+    visual: "news",
+    liveUrl: "",
+    sourceUrl: "",
+  },
+  {
+    id: "personal-portfolio",
+    title: "Personal Portfolio Website",
+    type: "React Project",
+    dates: "Nov 2026",
+    category: "Full Stack",
+    categoryLabel: "Full Stack · React",
+    summary:
+      "A responsive, single-page developer portfolio built with a config-driven React architecture.",
+    details: [
+      "Built with React 19, Framer Motion and Vite, with content managed from a central configuration file.",
+      "Applied accessibility and SEO practices, including keyboard-accessible navigation and project dialogs, reduced-motion support, semantic HTML, Open Graph tags and JSON-LD metadata.",
+      "Delivered as a static, deployable site with a filterable project showcase, mailto contact form and downloadable résumé; checked across desktop, tablet and mobile breakpoints.",
+    ],
+    stack: [
+      "React 19",
+      "Framer Motion",
+      "Vite",
+      "Accessibility",
+      "SEO",
+      "Responsive design",
+    ],
+    visual: "portfolio",
+    liveUrl: "",
+    sourceUrl: "",
+  },
+];
